@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB43EBD2CDFB480EA827BF65 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1157BC34F6E24A7EB41F76D7 /* libPods.a */; };
+		DC331D061997CAE900AD1F9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC331D051997CAE900AD1F9D /* Foundation.framework */; };
+		DC331D081997CAE900AD1F9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC331D071997CAE900AD1F9D /* CoreGraphics.framework */; };
+		DC331D0A1997CAE900AD1F9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC331D091997CAE900AD1F9D /* UIKit.framework */; };
+		DC331D101997CAE900AD1F9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC331D0E1997CAE900AD1F9D /* InfoPlist.strings */; };
+		DC331D121997CAE900AD1F9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC331D111997CAE900AD1F9D /* main.m */; };
+		DC331D161997CAE900AD1F9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC331D151997CAE900AD1F9D /* AppDelegate.m */; };
+		DC331D191997CAE900AD1F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC331D171997CAE900AD1F9D /* Main.storyboard */; };
+		DC331D1C1997CAE900AD1F9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC331D1B1997CAE900AD1F9D /* ViewController.m */; };
+		DC331D1E1997CAE900AD1F9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC331D1D1997CAE900AD1F9D /* Images.xcassets */; };
+		DC331D251997CAE900AD1F9D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC331D241997CAE900AD1F9D /* XCTest.framework */; };
+		DC331D261997CAE900AD1F9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC331D051997CAE900AD1F9D /* Foundation.framework */; };
+		DC331D271997CAE900AD1F9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC331D091997CAE900AD1F9D /* UIKit.framework */; };
+		DC331D2F1997CAE900AD1F9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC331D2D1997CAE900AD1F9D /* InfoPlist.strings */; };
+		DC331D311997CAE900AD1F9D /* DNAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC331D301997CAE900AD1F9D /* DNAppTests.m */; };
+		DC44EE491997E820005C976F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC44EE481997E820005C976F /* HomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC331D281997CAE900AD1F9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC331CFA1997CAE900AD1F9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC331D011997CAE900AD1F9D;
+			remoteInfo = DNApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1157BC34F6E24A7EB41F76D7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BA44B6D43F4195A0F5FC4B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		DC331D021997CAE900AD1F9D /* DNApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC331D051997CAE900AD1F9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC331D071997CAE900AD1F9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC331D091997CAE900AD1F9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC331D0D1997CAE900AD1F9D /* DNApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DNApp-Info.plist"; sourceTree = "<group>"; };
+		DC331D0F1997CAE900AD1F9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC331D111997CAE900AD1F9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC331D131997CAE900AD1F9D /* DNApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DNApp-Prefix.pch"; sourceTree = "<group>"; };
+		DC331D141997CAE900AD1F9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC331D151997CAE900AD1F9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC331D181997CAE900AD1F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC331D1A1997CAE900AD1F9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC331D1B1997CAE900AD1F9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC331D1D1997CAE900AD1F9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC331D231997CAE900AD1F9D /* DNAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC331D241997CAE900AD1F9D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DC331D2C1997CAE900AD1F9D /* DNAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DNAppTests-Info.plist"; sourceTree = "<group>"; };
+		DC331D2E1997CAE900AD1F9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC331D301997CAE900AD1F9D /* DNAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNAppTests.m; sourceTree = "<group>"; };
+		DC44EE471997E820005C976F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DC44EE481997E820005C976F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC331CFF1997CAE900AD1F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC331D081997CAE900AD1F9D /* CoreGraphics.framework in Frameworks */,
+				DC331D0A1997CAE900AD1F9D /* UIKit.framework in Frameworks */,
+				DC331D061997CAE900AD1F9D /* Foundation.framework in Frameworks */,
+				CB43EBD2CDFB480EA827BF65 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC331D201997CAE900AD1F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC331D251997CAE900AD1F9D /* XCTest.framework in Frameworks */,
+				DC331D271997CAE900AD1F9D /* UIKit.framework in Frameworks */,
+				DC331D261997CAE900AD1F9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC331CF91997CAE900AD1F9D = {
+			isa = PBXGroup;
+			children = (
+				DC331D0B1997CAE900AD1F9D /* DNApp */,
+				DC331D2A1997CAE900AD1F9D /* DNAppTests */,
+				DC331D041997CAE900AD1F9D /* Frameworks */,
+				DC331D031997CAE900AD1F9D /* Products */,
+				B0BA44B6D43F4195A0F5FC4B /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		DC331D031997CAE900AD1F9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC331D021997CAE900AD1F9D /* DNApp.app */,
+				DC331D231997CAE900AD1F9D /* DNAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC331D041997CAE900AD1F9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC331D051997CAE900AD1F9D /* Foundation.framework */,
+				DC331D071997CAE900AD1F9D /* CoreGraphics.framework */,
+				DC331D091997CAE900AD1F9D /* UIKit.framework */,
+				DC331D241997CAE900AD1F9D /* XCTest.framework */,
+				1157BC34F6E24A7EB41F76D7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC331D0B1997CAE900AD1F9D /* DNApp */ = {
+			isa = PBXGroup;
+			children = (
+				DC331D141997CAE900AD1F9D /* AppDelegate.h */,
+				DC331D151997CAE900AD1F9D /* AppDelegate.m */,
+				DC331D171997CAE900AD1F9D /* Main.storyboard */,
+				DC44EE471997E820005C976F /* HomeViewController.h */,
+				DC44EE481997E820005C976F /* HomeViewController.m */,
+				DC331D1A1997CAE900AD1F9D /* ViewController.h */,
+				DC331D1B1997CAE900AD1F9D /* ViewController.m */,
+				DC331D1D1997CAE900AD1F9D /* Images.xcassets */,
+				DC331D0C1997CAE900AD1F9D /* Supporting Files */,
+			);
+			path = DNApp;
+			sourceTree = "<group>";
+		};
+		DC331D0C1997CAE900AD1F9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC331D0D1997CAE900AD1F9D /* DNApp-Info.plist */,
+				DC331D0E1997CAE900AD1F9D /* InfoPlist.strings */,
+				DC331D111997CAE900AD1F9D /* main.m */,
+				DC331D131997CAE900AD1F9D /* DNApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC331D2A1997CAE900AD1F9D /* DNAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC331D301997CAE900AD1F9D /* DNAppTests.m */,
+				DC331D2B1997CAE900AD1F9D /* Supporting Files */,
+			);
+			path = DNAppTests;
+			sourceTree = "<group>";
+		};
+		DC331D2B1997CAE900AD1F9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC331D2C1997CAE900AD1F9D /* DNAppTests-Info.plist */,
+				DC331D2D1997CAE900AD1F9D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC331D011997CAE900AD1F9D /* DNApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC331D341997CAE900AD1F9D /* Build configuration list for PBXNativeTarget "DNApp" */;
+			buildPhases = (
+				DD3A4A5D2BC84DD5A6EA9B56 /* Check Pods Manifest.lock */,
+				DC331CFE1997CAE900AD1F9D /* Sources */,
+				DC331CFF1997CAE900AD1F9D /* Frameworks */,
+				DC331D001997CAE900AD1F9D /* Resources */,
+				CDF25B9B300C47CDB70A75A9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNApp;
+			productName = DNApp;
+			productReference = DC331D021997CAE900AD1F9D /* DNApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC331D221997CAE900AD1F9D /* DNAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC331D371997CAE900AD1F9D /* Build configuration list for PBXNativeTarget "DNAppTests" */;
+			buildPhases = (
+				DC331D1F1997CAE900AD1F9D /* Sources */,
+				DC331D201997CAE900AD1F9D /* Frameworks */,
+				DC331D211997CAE900AD1F9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC331D291997CAE900AD1F9D /* PBXTargetDependency */,
+			);
+			name = DNAppTests;
+			productName = DNAppTests;
+			productReference = DC331D231997CAE900AD1F9D /* DNAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC331CFA1997CAE900AD1F9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Raiko Eckstein";
+				TargetAttributes = {
+					DC331D221997CAE900AD1F9D = {
+						TestTargetID = DC331D011997CAE900AD1F9D;
+					};
+				};
+			};
+			buildConfigurationList = DC331CFD1997CAE900AD1F9D /* Build configuration list for PBXProject "DNApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC331CF91997CAE900AD1F9D;
+			productRefGroup = DC331D031997CAE900AD1F9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC331D011997CAE900AD1F9D /* DNApp */,
+				DC331D221997CAE900AD1F9D /* DNAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC331D001997CAE900AD1F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC331D1E1997CAE900AD1F9D /* Images.xcassets in Resources */,
+				DC331D101997CAE900AD1F9D /* InfoPlist.strings in Resources */,
+				DC331D191997CAE900AD1F9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC331D211997CAE900AD1F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC331D2F1997CAE900AD1F9D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CDF25B9B300C47CDB70A75A9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD3A4A5D2BC84DD5A6EA9B56 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC331CFE1997CAE900AD1F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC331D1C1997CAE900AD1F9D /* ViewController.m in Sources */,
+				DC331D161997CAE900AD1F9D /* AppDelegate.m in Sources */,
+				DC331D121997CAE900AD1F9D /* main.m in Sources */,
+				DC44EE491997E820005C976F /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC331D1F1997CAE900AD1F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC331D311997CAE900AD1F9D /* DNAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC331D291997CAE900AD1F9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC331D011997CAE900AD1F9D /* DNApp */;
+			targetProxy = DC331D281997CAE900AD1F9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC331D0E1997CAE900AD1F9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC331D0F1997CAE900AD1F9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC331D171997CAE900AD1F9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC331D181997CAE900AD1F9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC331D2D1997CAE900AD1F9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC331D2E1997CAE900AD1F9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC331D321997CAE900AD1F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC331D331997CAE900AD1F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC331D351997CAE900AD1F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0BA44B6D43F4195A0F5FC4B /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DNApp/DNApp-Prefix.pch";
+				INFOPLIST_FILE = "DNApp/DNApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC331D361997CAE900AD1F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0BA44B6D43F4195A0F5FC4B /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DNApp/DNApp-Prefix.pch";
+				INFOPLIST_FILE = "DNApp/DNApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC331D381997CAE900AD1F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DNApp.app/DNApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DNApp/DNApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DNAppTests/DNAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DC331D391997CAE900AD1F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DNApp.app/DNApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DNApp/DNApp-Prefix.pch";
+				INFOPLIST_FILE = "DNAppTests/DNAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC331CFD1997CAE900AD1F9D /* Build configuration list for PBXProject "DNApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC331D321997CAE900AD1F9D /* Debug */,
+				DC331D331997CAE900AD1F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC331D341997CAE900AD1F9D /* Build configuration list for PBXNativeTarget "DNApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC331D351997CAE900AD1F9D /* Debug */,
+				DC331D361997CAE900AD1F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC331D371997CAE900AD1F9D /* Build configuration list for PBXNativeTarget "DNAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC331D381997CAE900AD1F9D /* Debug */,
+				DC331D391997CAE900AD1F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC331CFA1997CAE900AD1F9D /* Project object */;
+}
